@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 $yellow: #ffeb42;
+$pink: #f72a33;
+$light-pink: #d34c4d;
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .yellow {
     background-color: $yellow;
 }
+
 .cat-img {
     display: none;
+}
+
+.text-me-btn {
+    background-color: $pink;
+    border: 2px solid white;
+}
+
+.text-me-btn:hover {
+    background-color: $light-pink;
+}
+
+.space-row {
+    background-image: url("../img/space-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
