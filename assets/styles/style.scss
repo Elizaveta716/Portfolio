@@ -28,6 +28,11 @@ body {
 .space-row {
     background-image: url("../img/space-background.png");
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #2b1277;
+    background-size: contain;
+}
+
+.divider {
+    background-color: white;
+    min-height: 2px;
 }

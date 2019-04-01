@@ -1,69 +1,108 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid yellow">
-        <div class="row justify-content-center">
-            <div class="col-6">
-                <ul class="nav justify-content-center font-weight-bold my-3 text-uppercase">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">CV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Contacts</a>
-                    </li>
-                </ul>
-            </div>
-
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <ul class="nav justify-content-center font-weight-bold my-3 text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contacts</a>
+            </li>
+          </ul>
         </div>
-        <div class="row justify-content-center pb-1">
-            <div class="col-12 col-md-6 col-lg-4 order-md-2">
+      </div>
 
-                <img src="assets/img/main pic.png" alt="Main pic" class="main-img w-100">
-                <img src="assets/img/cat wink.png" alt="Cat pic" class=" cat-img w-100">
-
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 text-center">
-                <h3 class="text-uppercase font-weight-bold mt-md-4 mt-lg-0 mt-xl-3">Hey there!</h3>
-                <p class="text-uppercase text-center mt-md-4">I am Elizaveta Svinukhova, <br> <span
-                        class="font-weight-bold">Junior
-                        Frontend Developer</span></p>
-                <hr>
-                <p class="mb-1 mb-md-2">Welcome to my page!</p>
-                <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2">Text
-                    me!</button>
-            </div>
+      <div class="row justify-content-center pb-1">
+        <div class="col-12 col-md-6 col-lg-4 order-md-2">
+          <img src="assets/img/main-pic.png" alt="Main pic" class="main-img w-100">
+          <img src="assets/img/cat-wink.png" alt="Cat pic" class=" cat-img w-100">
         </div>
 
-        <div class="row space-row justify-content-center">
-            <div class="col-5">
-                <h3 class="text-uppercase text-center text-white font-weight-bold mt-2">Skills</h3>
-            </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center">
+          <h3 class="text-uppercase font-weight-bold mt-md-4 mt-lg-0 mt-xl-3">Hey there!</h3>
+          <p class="text-uppercase text-center mt-md-4">I am Elizaveta Svinukhova, <br> <span
+            class="font-weight-bold">Junior
+            Frontend Developer</span>
+          </p>
+          <hr>
+          <p class="mb-1 mb-md-2">Welcome to my page!</p>
+          <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2">Text
+          me!</button>
         </div>
+      </div>
+
+      <div class="row space-row justify-content-center">
+        <div class="col-12">
+          <h3 class="text-uppercase text-center text-white font-weight-bold my-4">Skills</h3>
+        </div>
+
+        <div id="skills" class="col-5 col-md-10 col-lg-7 d-flex flex-wrap justify-content-center justify-content-md-between text-white font-weight-bold">
+          <div>
+            <img src="assets/img/skill-1.png" alt="Skills list">
+            <ul class="list-unstyled text-center">
+              <li>HTML</li>
+              <li>Bootstrap4</li>
+              <li>RWD</li>
+            </ul>
+          </div>
+          <div>
+            <img src="assets/img/skill-2.png" alt="Skills list">
+            <ul class="list-unstyled text-center">
+              <li>Photoshop</li>
+              <li>CSS</li>
+              <li>SCSS, SASS</li>
+            </ul>
+          </div>
+          <div>
+            <img src="assets/img/skill-3.png" alt="Skills list">
+            <ul class="list-unstyled text-center">
+              <li>JavaScript</li>
+              <li>JQuery</li>
+              <li>GIT</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-8 col-md-10 col-lg-7 mt-2">
+          <p class="divider"></p>
+        </div>
+
+        <div class="col-9 col-md-12 col-lg-9 col-xl-7">
+          <ul
+            class="languages-list list-unstyled text-white text-center text-uppercase d-flex justify-content-center justify-content-md-between flex-wrap">
+            <li class="mb-2">russian – native</li>
+            <li class="mb-2">english – advanced</li>
+            <li class="mb-2">ukranian - fluent</li>
+            <li class="mb-2">polish - basic</li>
+          </ul>
+        </div>
+        <div class="col-12 d-flex justify-content-center mt-2 mb-4">
+          <img src="assets/img/space-cat.png" alt="Space cat!">
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/scripts/animation.js"></script>
-</body>
-
+  </body>
 </html>
