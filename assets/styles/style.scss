@@ -12,7 +12,7 @@ body {
     background-color: $yellow;
 }
 
-.cat-img {
+.cat-wink {
     display: none;
 }
 
@@ -23,16 +23,4 @@ body {
 
 .text-me-btn:hover {
     background-color: $light-pink;
-}
-
-.space-row {
-    background-image: url("../img/space-background.png");
-    background-position: center;
-    background-color: #2b1277;
-    background-size: contain;
-}
-
-.divider {
-    background-color: white;
-    min-height: 2px;
 }
