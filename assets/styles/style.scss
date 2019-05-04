@@ -3,16 +3,20 @@
 $yellow: #ffeb42;
 $pink: #f72a33;
 $light-pink: #d34c4d;
+$dark-blue: #2b1277;
+$orange: #f8a713;
+$light-orange: #ffb836;
+$blue: #46a9d9;
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.yellow {
+.bg-yellow {
     background-color: $yellow;
 }
 
-.cat-wink {
+.cat-wink, .cat-wink-footer {
     display: none;
 }
 
@@ -23,4 +27,35 @@ body {
 
 .text-me-btn:hover {
     background-color: $light-pink;
+}
+
+.body-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bg-blue {
+    background-color: $dark-blue;
+}
+
+.space-block {
+    background-image: url("../img/stars-bg.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.languages-col {
+    border-top: 1px solid white;
+}
+
+.space-block-btn {
+    background-color: $orange;
+}
+
+.space-block-btn:hover {
+    background-color: $light-orange;
+}
+
+.bg-sky {
+    background-color: $blue;
 }
