@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Portfolio</title>
   </head>
-  
   <body>
     <div class="container-fluid bg-yellow">
       <div class="body-wrapper">
@@ -65,13 +64,10 @@
             </ul>
             <hr>
             <p class="mb-1 mb-md-2">Welcome to my page!</p>
-            <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2">Text
-            me!</button>
           </div>
         </div>
       </div>
     </div>
-    
     <div class="container-fluid bg-blue space-block">
       <div class="body-wrapper">
         <h4 class="text-white text-center text-uppercase font-weight-bold pt-4 pb-2" id="skills-block">Skills</h4>
@@ -118,13 +114,12 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-xl-2 d-flex justify-content-center pb-3">
-            <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2 space-block-btn">Text
+            <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2" data-toggle="modal" data-target="#exampleModalCenter" >Text
             me!</button>
           </div>
         </div>
       </div>
     </div>
-
     <div class="container-fluid bg-sky">
       <div class="body-wrapper land-block">
         <h3 class="text-white text-center font-weight-bold pt-4" id="cv-block">CV</h3>
@@ -143,7 +138,6 @@
         </div>
       </div>
     </div>
-
     <div class="container-fluid bg-yellow">
       <div class="body-wrapper">
         <h3 class="text-center font-weight-bold pt-4 pb-2" id="contacts-block">Contacts</h3>
@@ -164,7 +158,33 @@
         </div>
       </div>
     </div>
-
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h4 class="text-center font-weight-bold">Send me a message!</h4>
+            <form>
+              <div class="form-row mb-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Your name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Your email">
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message here"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2">Send!</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
