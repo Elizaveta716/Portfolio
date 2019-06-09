@@ -112,12 +112,12 @@
             </ul>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
           <div class="col-xl-2 d-flex justify-content-center pb-3">
             <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2" data-toggle="modal" data-target="#exampleModalCenter" >Text
             me!</button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="container-fluid bg-sky">
@@ -127,7 +127,7 @@
           <div class="col-xl-3 d-flex flex-column justify-content-center">
             <p class="text-white text-center font-weight-bold">Here you can download my CV!</p>
             <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn-light font-weight-bold">Download</button>
+              <a href="svelizaveta_en_cv.pdf" download="svelizaveta_en_cv" target="_blank" class="btn btn-light font-weight-bold">Download</a>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@
             <p class="text-center font-weight-bold mb-1">Elizaveta Svinukhova</p>
             <p class="text-center font-weight-bold">Junior Frontend Developer</p>
             <ul class="list-unstyled d-flex text-left justify-content-between flex-wrap mb-0">
-              <li class="py-1"><img src="assets/img/phone.png" class="mr-2" width="25" height="25" alt="Phone"><span>+48504146197</span></li>
+              <li class="py-1"><img src="assets/img/phone.png" class="mr-2" width="25" height="25" alt="Phone"><span>+48 504 146 197</span></li>
               <li class="py-1"><img src="assets/img/email.png" class="mr-2" width="25" height="25" alt="Email"><span>elizaveta.svinukhova92@gmail.com</span></li>
               <li class="py-1"><img src="assets/img/location.png" class="mr-2" width="25" height="25" alt="Location"><span>Kraków, Poland</span></li>
             </ul>
@@ -160,31 +160,32 @@
     </div>
     
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body">
             <h4 class="text-center font-weight-bold">Send me a message!</h4>
+
             <form>
               <div class="form-row mb-3">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Your name">
+                  <input type="text" name="name" class="form-control" placeholder="Your name" required>
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Your email">
+                  <input type="text" name="email" class="form-control" placeholder="Your email" required>
                 </div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message here"></textarea>
+                <textarea class="form-control" name="message" rows="3" placeholder="Your message here" required></textarea>
               </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2">Send!</button>
-          </div>
+              <div class="d-flex justify-content-center">
+              <button type="submit" class="btn text-me-btn text-white font-weight-bold text-uppercase mb-2">Send!</button>
+            </div>
+        </form>
+      </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
